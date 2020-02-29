@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Exchange{
+    height: 100%;
+    width: 100%;
+    background-color: darkcyan;
+    background-size: cover;
+
+}
+.form-box{
+    width: 400px;
+    height: 580px;
+    position: relative;
+    background: #fff;
+    margin: auto;
+    background-position: center;
+    padding: 5px;
+    position: relative;
+    bottom: 100px;
+}
+.button-box{
+    width:220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61231f;
+    border-radius: 30px;
+    
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0
+    left: 0;
+    position: absolute;
+    width 110px;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 40%;
+}
+.input-group{
+    top: 100%;
+    padding: 10px 0;
+    width: 280;
+    transition: 5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent
+}
+.sumbmit-btn{
+    width: 85;
+    padding; 10px 30px;
+    cursor: pointer;
+    display: black;
+    margin: auto;
+    background: linear-gradient(to right, #ffas06);
+    border: none;
+    border-radius: 30px;
+}
